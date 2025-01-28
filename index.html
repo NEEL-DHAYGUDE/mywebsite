@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>NEEL - DREAM TO FUN</title>
+    <title>NEEL - PROFESSIONAL PORTFOLIO</title>
     <style>
-        .info-card {
-            display: block;
-            margin: 10px auto;
-            padding: 15px;
-            background-color: rgba(249, 249, 249, 0.8);
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('backg.png');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h4 {
+            text-align: center;
+            color: #fff;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            font-style: italic;
+            background-color: rgba(233, 30, 99, 0.9);
+            padding: 15px 0;
+        }
+        h4 {
+            font-size: 1.5em;
+            background-color: rgba(240, 240, 240, 0.8);
+            padding: 10px;
+            color: #555;
+        }
+        .info-card, .cert-card, .project-card {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(249, 249, 249, 0.9);
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
             font-size: 1.2em;
             color: #333;
+        }
+        .info-card:hover, .cert-card:hover, .project-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .cert-card, .project-card {
+            background-color: rgba(255, 249, 229, 0.9);
+        }
+        table {
             width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table caption {
+            font-size: 1.5em;
+            margin: 10px;
+            font-weight: bold;
+            color: #fff;
+            background-color: rgba(233, 30, 99, 0.9);
+            padding: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: rgba(249, 249, 249, 0.9);
+            font-size: 1.1em;
+        }
+        th {
+            background-color: #e91e63;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 15px;
         }
         .footer-links a {
             color: #ff5722;
@@ -23,66 +86,55 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
+        .section-title {
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+            background-color: rgba(233, 30, 99, 0.9);
+            padding: 10px 0;
+            margin: 30px auto;
+            font-size: 1.5em;
+            width: 80%;
+            border-radius: 8px;
+        }
     </style>
 </head>
-<body style="font-family: Arial, sans-serif; background-image: url('backg.png'); background-size: cover; background-position: center; color: #333; margin: 0; padding: 0;">
+<body>
 
-    <h1 style="text-align: center; font-size: 3em; font-style: italic; color: #fff; background-color: rgba(233, 30, 99, 0.8); padding: 10px 0; margin-top: 20px;">NEEL DHAYGUDE</h1>
-    <h4 style="text-align: center; font-size: 1.5em; font-style: italic; color: #555; margin-top: 0; background-color: rgba(240, 240, 240, 0.7); padding: 5px;">- CRICKET AND CODING NOW</h4>
+    <h1>NEEL DHAYGUDE</h1>
+    <h4>- BUILDING FUTURE WITH TECHNOLOGY AND INNOVATION</h4>
     
     <p style="text-align: center;">
         <img src="self.png" alt="Neel" style="width: 300px; height: auto; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-        <b style="color: #e91e63;">YEP THAT'S ME</b>
+        <b style="color: #e91e63;">NEEL DHAYGUDE</b>
     </p>
 
-    <hr style="width: 80%; margin: 30px auto; border: 1px collapsed #ccc;">
+    <div class="info-card"> 9TH APRIL 2004 PUNE (INDIA)</div>
+    <div class="info-card">I COMPLETED MY EDUCATION PARTLY IN INDIA AND HIGH SCHOOL IN ABU DHABI, UAE</div>
+    <div class="info-card">CURRENTLY PURSUING BTECH AT VIT UNIVERSITY, EXPLORING MY PASSIONS IN TECHNOLOGY AND INNOVATION</div>
 
-    <p style="text-align: center; font-weight: bold; color: #fff; background-color: rgba(233, 30, 99, 0.8); padding: 10px 0;">A BRIEF INTRO</p>
-    <div class="info-card">WISH ME ON 9TH APRIL 2004, THAT'S WHEN I CAME ON THIS RANDOM PLANET IN PUNE, INDIA</div>
-    <div class="info-card">GETTING OVER THE FORMALITIES, I DID MY EDUCATION PARTLY FROM INDIA AND HIGH SCHOOL IN ABU DHABI, UAE</div>
-    <div class="info-card">A CLUB LEVEL CRICKETER I ALSO STARTED MY PASSION AS A BALLING ALLROUNDER IN VOLCANO ACADEMY</div>
-    <div class="info-card">MY IDOL SINCE CHILDHOOD IS NONE OTHER THAN THE KING, VIRAT KOHLI.</div>
-    <div class="info-card">LOVE CHALLENGES AND THAT NEVER GIVE UP ATTITUDE WITH AGGRESSION BUT OVERALL A FRIEND TO ALL</div>
-    <div class="info-card">CURRENTLY IN VIT AS A 3RD YEAR BTECH ENGINEER LIKE EVERYONE AROUND, BUT ALWAYS LOOKING AT THE BIG PICTURE OF LIFE AHEAD</div>
+    <div class="section-title">CERTIFICATIONS</div>
+    <div class="cert-card">AWS EDUCATE CLOUD 101</div>
+    <div class="cert-card">AWS EDUCATE MACHINE LEARNING</div>
+    <div class="cert-card">AWS EDUCATE DEEPRACER</div>
+    <div class="cert-card">AWS EDUCATE GENERATIVE AI</div>
+    <div class="cert-card">CISCO CYBER SECURITY</div>
+    <div class="cert-card">CISCO PACKET TRACER</div>
+    <div class="cert-card">MICROSOFT AZURE AI-900</div>
+    <div class="cert-card">SOFTWARE ENGINEERING AND AGILE SOFTWARE DEVELOPMENT (INFOSYS)</div>
 
-    <hr style="width: 80%; margin: 30px auto; border: 1px collapsed #ccc;">
+    <div class="section-title">PROJECTS</div>
+    <div class="project-card">AI SENTIMENT ANALYSIS CHATBOT</div>
+    <div class="project-card">YOLO TECHNOLOGY-BASED VEHICLE DETECTION</div>
+    <div class="project-card">PYTHON-MYSQL HOSPITAL MANAGEMENT SYSTEM</div>
+    <div class="project-card">RESEARCH ON PLAGIARISM IN IMAGES</div>
 
-    <table style="width: 80%; margin: 20px auto; border-collapse: collapse; text-align: center;">
-        <caption style="font-size: 1.5em; margin: 10px; font-weight: bold; color: #fff; background-color: rgba(233, 30, 99, 0.8); padding: 10px;">SOME MORE USEFUL AND USELESS INFO</caption>
-        <thead>
-            <tr>
-                <th style="padding: 10px; border: 1px collapsed #ddd; background-color: #e91e63; color: white; font-size: 1.2em;">TOPIC</th>
-                <th style="padding: 10px; border: 1px collapsed #ddd; background-color: #e91e63; color: white; font-size: 1.2em;">DATA</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">10TH GRADE</td>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">95%</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">12TH GRADE</td>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">90%</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">BEST BALLING RECORD</td>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">4-3-5-6</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">BEST BATTING STATS</td>
-                <td style="padding: 10px; border: 1px collapsed #ddd; background-color: rgba(249, 249, 249, 0.8);">210(100)</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <hr style="width: 80%; margin: 30px auto; border: 1px collapsed #ccc;">
-
-    <footer style="text-align: center; background-color: #222; color: white; padding: 10px;">
-        <p>&copy; 2024 - Neel - an intro</p>
+    <footer>
+        <p>&copy; 2024 - Neel - Professional Portfolio</p>
         <div class="footer-links">
             <p>FIND ME ON - 
                 <a href="https://www.instagram.com/ncsher_18/profilecard/?igsh=eDFwd2xkc3pwdXZ4" target="_blank">Instagram</a>
-                <a href=https://www.linkedin.com/in/neel-dhaygude-083483274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/neel-dhaygude-083483274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
                 <a href="https://wa.me/917984783550" target="_blank">WhatsApp</a>
             </p>
         </div>
